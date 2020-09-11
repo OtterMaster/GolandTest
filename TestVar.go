@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var a string = "initial"
+	a := 5
 	fmt.Println(a)
 }
