@@ -18,7 +18,7 @@ func main() {
 		fmt.Scan(&user)
 		
 		if user < 0 {
-			fmt.Print("Number out of limits or unexpected characters find, please try again.\n")
+			fmt.Println("Number out of limits or unexpected characters find, please try again.")
 		} else if user < random {
 			fmt.Println("Higher than your choice!")
 		}
